@@ -148,10 +148,7 @@ def main():
 			v_count+=1
 
 
-		#for k in range(0,len(dept_verification)):
-
-			#if 
-
+		
 			#if not dept_verification[k]:
 			#	pass
 
