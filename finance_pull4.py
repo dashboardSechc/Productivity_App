@@ -24,6 +24,9 @@ def main(raw_location=0, dash_location=0):
 	#TODO if they dont exist
 
 
+
+#hi  this is aptrick K 
+
 	if raw_location ==0:
 		raw_location = "P:/Dashboard KPI location/Departments/Finance/financial_indicators.xlsx"
 
