@@ -165,57 +165,7 @@ def check_data(dash_book,copy_book,finance_list):
 
 
 
-		# # for loop going through the dashboard file to look where to write the value
-		# for y in range(0,max_rows):
-		# 	for x in range(1,max_cols): 
-		# 		cell_val = wsheet_re.cell(y,x)
-
-		# 		#if str(cell_val) == "empty:''":
-		# 		sheet_y = y
-		# 		sheet_x = x
-
-
-
-		# 		month_dash = str(wsheet_re.cell(sheet_y,0))
-		# 		month_dash = month_dash.replace("text:","")
-		# 		month_dash = month_dash.replace("'","")
-
-		# 		dash_name = str(wsheet_re.cell(0,sheet_x))
-		# 		dash_name = dash_name.replace("text:","")
-		# 		dash_name = dash_name.replace("'","")
-
-
-
-
-		# 		month_finance = finance_list[0][x]
-		# 		month_fin2_foo = finance_list[0][x]
-
-
-		# 		if month_dash == month_fin2_foo:
-		# 			foo=4
-		# 			#print("-----------------------finance month", month_fin2_foo, month_dash)
-
-		# 		else:
-		# 			foo=3
-		# 			#print(month_fin2_foo, month_dash,"-------------------------------")
-
-
-					
-		# 		#print("dashname",month_dash, month_finance)
-		# 		if month_dash == month_finance:
-		# 			#print("main.check months are equal",month_dash, month_finance)
-		# 			print("equal", month_dash, month_finance)
-
-		# 			for n in range(0,len(finance_list)):
-		# 				finance_name = finance_list[n][0]
-
-		# 				if finance_name == dash_name:
-		# 					print("main.check names are equal", finance_name, dash_name, finance_list[n][finance_x])
-		# 					dash_sheet.write(sheet_y,sheet_x, finance_list[n][finance_x])
-
-
-
-
+		
 
 
 
